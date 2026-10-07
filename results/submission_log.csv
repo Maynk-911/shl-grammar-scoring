@@ -1,0 +1,2 @@
+artifact,model,rows,holdout_rmse,holdout_pearson,status
+submission.csv,ExtraTrees,216,0.6891117612699722,0.8384886724804615,Generated and locally validated; not uploaded to Kaggle

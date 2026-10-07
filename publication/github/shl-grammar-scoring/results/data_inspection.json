@@ -1,0 +1,68 @@
+{
+  "train_rows": 769,
+  "test_rows": 216,
+  "sample_rows": 204,
+  "columns": [
+    "filename",
+    "label"
+  ],
+  "target_range": [
+    0.0,
+    5.0
+  ],
+  "label_counts": {
+    "0.0": 37,
+    "1.0": 1,
+    "1.5": 3,
+    "2.0": 102,
+    "2.5": 79,
+    "3.0": 174,
+    "3.5": 64,
+    "4.0": 124,
+    "4.5": 52,
+    "5.0": 133
+  },
+  "missing_values": {
+    "train": {
+      "filename": 0,
+      "label": 0
+    },
+    "test": {
+      "filename": 0,
+      "label": 0
+    },
+    "sample": {
+      "filename": 0,
+      "label": 0
+    }
+  },
+  "duplicate_rows": {
+    "train": 0,
+    "test": 0
+  },
+  "same_filename_across_splits": 212,
+  "duplicate_audio": 0,
+  "sample_matches_test": false,
+  "sample_test_overlap": 25,
+  "submission_policy": "User confirmed stale sample IDs; use test.csv IDs/order and sample columns.",
+  "sample_rates": {
+    "16000": 985
+  },
+  "channels": {
+    "1": 985
+  },
+  "duration_by_split": {
+    "min": {
+      "test": 6.48,
+      "train": 20.06
+    },
+    "median": {
+      "test": 45.06,
+      "train": 60.0746875
+    },
+    "max": {
+      "test": 61.0346875,
+      "train": 61.04
+    }
+  }
+}

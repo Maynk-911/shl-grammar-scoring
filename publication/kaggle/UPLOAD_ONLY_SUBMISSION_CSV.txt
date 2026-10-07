@@ -1,0 +1,3 @@
+Upload only submission.csv to SHL Hiring Assessment 2026.
+216 rows; filename,label; exact test.csv order; unchanged verified predictions.
+Description: ExtraTrees acoustic features; seed 42; CV Pearson 0.7886; holdout RMSE 0.6891, Pearson 0.8385.

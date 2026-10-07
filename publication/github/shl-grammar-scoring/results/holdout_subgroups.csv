@@ -1,0 +1,3 @@
+Subset,Count,RMSE,Pearson
+zero scores,8,0.01809837337517271,
+nonzero scores,146,0.7077270805394686,0.7380595915077117

@@ -1,0 +1,10 @@
+{
+  "local_solution": "complete and verified",
+  "notebook": "executed top to bottom; 15 code cells; no errors",
+  "submission": "216 rows; test.csv order; filename,label; finite [0,5] predictions",
+  "kaggle_upload": "not uploaded; Chrome page interaction timed out twice",
+  "competition_url": "https://www.kaggle.com/competitions/shl-hiring-assessment-2026",
+  "github_publication": "not published; GitHub-ready files packaged",
+  "single_wav_inference": "checked against matching submission prediction",
+  "submission_sha256": "26e5cae71f84c83f1ea606a5460ec28d6ef51e93702499f935b96cac353acb97"
+}

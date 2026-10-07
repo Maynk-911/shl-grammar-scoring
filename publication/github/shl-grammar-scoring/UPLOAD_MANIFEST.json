@@ -1,0 +1,197 @@
+{
+  "status": "verified",
+  "model_or_methodology_changes": false,
+  "note": "Hashes cover all upload files except this manifest itself.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 140,
+      "sha256": "417d44dd62760758cb27a31fea81191a9cf28eed516a5f00eb53a46a24e7f6be"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7355,
+      "sha256": "f40752320921969acb7dbe5cc17d2ff15c6533ee0a2b18ddf65eab3162fa1319"
+    },
+    {
+      "path": "UPLOAD_GUIDE.md",
+      "bytes": 4349,
+      "sha256": "f17adf06b226b73889d3822097c076230a06bb3251f9c623a148218939d2cf93"
+    },
+    {
+      "path": "SHL_Grammar_Scoring.ipynb",
+      "bytes": 306717,
+      "sha256": "4039a1323e5ae9447a27971c9aa3dc6de147c3909358212facf7e47da052b3c7"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 169,
+      "sha256": "19464f92cafd0aa567826d2ca0b43d661f518f8d1c1ad60aad1ad4d17ca87926"
+    },
+    {
+      "path": "submission.csv",
+      "bytes": 7089,
+      "sha256": "26e5cae71f84c83f1ea606a5460ec28d6ef51e93702499f935b96cac353acb97"
+    },
+    {
+      "path": "features/audio_features.csv",
+      "bytes": 3358776,
+      "sha256": "df366c84cb892fe9be768023d63310db28a1777afa721eebb0d5895c94024cd5"
+    },
+    {
+      "path": "src/__init__.py",
+      "bytes": 36,
+      "sha256": "533b389c50d1ba22a3e49b6f7a58e5d5304ec2fe58387a39cd12ed620dae6f6b"
+    },
+    {
+      "path": "src/data.py",
+      "bytes": 4779,
+      "sha256": "2117d9d1e207ceb8dac5732407e6bea64808ef9f1de23be70379d7572b92ccd7"
+    },
+    {
+      "path": "src/feature_extraction.py",
+      "bytes": 7182,
+      "sha256": "5126722fdfd0628a768ec20e12b5aaddcdad5b7adce0f62e8ba043ea1fb07164"
+    },
+    {
+      "path": "src/model.py",
+      "bytes": 6361,
+      "sha256": "d5f37d33e8ba8111536a6fa44032d0205e2a27c9e0a103690d18e77c3c536f27"
+    },
+    {
+      "path": "scripts/benchmark_asr.py",
+      "bytes": 1601,
+      "sha256": "896e53da9ba1a9ee2c74b2a2071cbc71739e402b8de007c72d49bc1ec1573baf"
+    },
+    {
+      "path": "scripts/build_notebook.py",
+      "bytes": 20467,
+      "sha256": "3642fc73573b1a60d8849c34db555dbbbb1ceca5d142f8ad56f3222f3970364b"
+    },
+    {
+      "path": "scripts/execute_notebook.py",
+      "bytes": 1557,
+      "sha256": "0d54ac2beebe53cc3cb2595de7c70a3ad82582f42964b5ef6d2fe24869e3a972"
+    },
+    {
+      "path": "scripts/package_project.py",
+      "bytes": 1180,
+      "sha256": "40e2bc731594a2704960f16ecf049874e0b5d7bf843b066c370b3e032f631837"
+    },
+    {
+      "path": "scripts/predict.py",
+      "bytes": 1363,
+      "sha256": "092f4859f2861ebfb146dec7e95bc1f23157eb5b43d2f883573c7f7d703eb5be"
+    },
+    {
+      "path": "scripts/run_pipeline.py",
+      "bytes": 3681,
+      "sha256": "3d187c9f73b4a4de5c2820602986ce9f259f3ee94a8812a1d9b2f6e979927b74"
+    },
+    {
+      "path": "scripts/verify_artifacts.py",
+      "bytes": 5155,
+      "sha256": "6834f34d3fa04a942f44d5fd090bbfd53b10a3f0a9e45f89ef1cb6f44c7ed462"
+    },
+    {
+      "path": "results/asr_benchmark.json",
+      "bytes": 306,
+      "sha256": "72542254c0b08f56293b129242902a99a90b12d8f96d2afe626705f1e0585430"
+    },
+    {
+      "path": "results/audio_audit.csv",
+      "bytes": 103948,
+      "sha256": "c56586ced83b96ed1e912fda4fb60450723011f01100fa6d8bcd56613382174c"
+    },
+    {
+      "path": "results/data_inspection.json",
+      "bytes": 1189,
+      "sha256": "5e356fced536b76bd5def7121d950c5a95b207d9f07480357aa4675e8a8be815"
+    },
+    {
+      "path": "results/delivery_status.json",
+      "bytes": 608,
+      "sha256": "b85f8d2afd7d081d76b04155affd4368fdf9615832fe7257f252293160c7d88d"
+    },
+    {
+      "path": "results/development_oof_predictions.csv",
+      "bytes": 68113,
+      "sha256": "c6c0383a655535267562802ff80f8c046383a5c5f346a9bd20e7f02dfc7a5a51"
+    },
+    {
+      "path": "results/environment.json",
+      "bytes": 278,
+      "sha256": "ac980effeea8dd71102552cf8a5963d33d48c1688df299ee56bce40b1ffca9b2"
+    },
+    {
+      "path": "results/experiment_results.csv",
+      "bytes": 1150,
+      "sha256": "f36ad0dbf5d21d94d87048728588d8288cc7ea9cec34b6ea01a3d1916b5ae307"
+    },
+    {
+      "path": "results/feature_importance.csv",
+      "bytes": 862,
+      "sha256": "40903b79d29f32f52069f8b55f9e3b0f2e05baba27441c3634a6879db8631d01"
+    },
+    {
+      "path": "results/figures/01_dataset_overview.png",
+      "bytes": 62027,
+      "sha256": "6586cdf9c7f639bc0277f2cbba038f32eb8b4440ab239c232eb1a580a01c33a4"
+    },
+    {
+      "path": "results/figures/02_audio_features.png",
+      "bytes": 79294,
+      "sha256": "8073b82e92fda23e0fab99ef61a0567ecfa7ac73c8751ad44234f77c670e1511"
+    },
+    {
+      "path": "results/figures/03_holdout_performance.png",
+      "bytes": 75430,
+      "sha256": "ae673ffb070e714b38164accdf82095fe7b0bafa8f5a49c8a7360fc4fd55e440"
+    },
+    {
+      "path": "results/figures/04_feature_importance.png",
+      "bytes": 53361,
+      "sha256": "56076dc7b3cf56ce3281612ef4eda9e2b5a0e8fb22c5d4b418e78808e8e5d938"
+    },
+    {
+      "path": "results/final_artifact_audit.json",
+      "bytes": 2589,
+      "sha256": "24e39d55751e77fef77fdb14f18c8e88090f05b136cdfacd5ab88275fee14b7c"
+    },
+    {
+      "path": "results/holdout_bootstrap_intervals.csv",
+      "bytes": 105,
+      "sha256": "e282b1aea8dd6bdc019d83d5d8da63f588f4f786409e9d4d9ca7fe26c8394031"
+    },
+    {
+      "path": "results/holdout_predictions.csv",
+      "bytes": 5729,
+      "sha256": "bd6216e36dac8e6d8a8852c456e858e4b1f7ca00ec084f4f81ec4d9f0bef1ed3"
+    },
+    {
+      "path": "results/holdout_subgroups.csv",
+      "bytes": 121,
+      "sha256": "d542eb7cde6a48f41c7c7d9b4cff75f7e8373314a9aac6e1590db3282ab26762"
+    },
+    {
+      "path": "results/metrics.json",
+      "bytes": 639,
+      "sha256": "900577c090602246a21b1922fb9c01e538c4074fdb95eaddede096d5c10ed7a4"
+    },
+    {
+      "path": "results/submission_log.csv",
+      "bytes": 182,
+      "sha256": "ce22ddea5d460f52354479abed5f08d43890030cdd4d1c1ca0e3feb1c632d778"
+    },
+    {
+      "path": "results/validation_split.csv",
+      "bytes": 21795,
+      "sha256": "da5d83213759a952da339da0d3ef026a6f3792eb9604181fa1936aaa1698252d"
+    },
+    {
+      "path": "results/verification.json",
+      "bytes": 526,
+      "sha256": "4662a7e334b5e1676c6e46c2b405fb3014f50a952a555c8ca2f2d074f5751bf0"
+    }
+  ]
+}

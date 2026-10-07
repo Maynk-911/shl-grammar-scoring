@@ -1,0 +1,11 @@
+{
+  "model": "faster-whisper-small",
+  "device": "cpu",
+  "compute_type": "int8",
+  "load_seconds": 3.4335464000178035,
+  "transcription_seconds": 13.65179169998737,
+  "audio_seconds": 60.508375,
+  "estimated_985_clip_hours": 3.735281895690989,
+  "filename": "audio_192.wav",
+  "split": "train"
+}

@@ -1,0 +1,6 @@
+Experiment,Feature Set,Model,CV RMSE,CV Pearson,CV fold RMSE std,Training RMSE,Training Pearson,Seconds,Notes
+Dummy mean,audio,Dummy mean,1.235861544706331,-0.02103636035339749,0.051074214923100665,1.235188989584069,,0.1796258999966085,3-fold OOF on development only; training metrics are fold means
+Ridge,audio,Ridge,0.8392869812350021,0.7341613142023788,0.017531328505528597,0.7151760979104202,0.8179130292617924,0.19265000001178123,3-fold OOF on development only; training metrics are fold means
+ExtraTrees,audio,ExtraTrees,0.7646730041475943,0.7885990835176955,0.01999701883898175,0.1589305423229256,0.9942486005314916,3.2112729999935254,3-fold OOF on development only; training metrics are fold means
+RandomForest,audio,RandomForest,0.7834114347984171,0.7766608848771562,0.018993721403995464,0.354435801466112,0.9686793058973682,7.395697100000689,3-fold OOF on development only; training metrics are fold means
+HistGradientBoosting,audio,HistGradientBoosting,0.7820123726789313,0.7748889102272023,0.014277595177778199,0.3653907975643338,0.9605729470324991,2.8352306000015233,3-fold OOF on development only; training metrics are fold means

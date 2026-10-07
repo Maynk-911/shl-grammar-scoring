@@ -1,0 +1,51 @@
+{
+  "scope": "Completed-cache subset only; same original fold IDs, equal training/validation rows for both models.",
+  "training_samples": 339,
+  "test_samples_with_complete_new_features": 0,
+  "full_769_sample_baseline": {
+    "model": "audio_et",
+    "RMSE_mean": 0.7212044498015275,
+    "RMSE_std": 0.0571142093944781,
+    "Pearson_mean": 0.8104532953808364,
+    "Pearson_std": 0.0518101704784977
+  },
+  "matched_subset_audio_baseline": {
+    "RMSE_mean": 0.7849387114558802,
+    "RMSE_std": 0.11256633086870997,
+    "Pearson_mean": 0.7822591932417919,
+    "Pearson_std": 0.08719396380819913
+  },
+  "augmented_subset_extratrees": {
+    "RMSE_mean": 0.6091449062538775,
+    "RMSE_std": 0.08705197962353994,
+    "Pearson_mean": 0.8780210342596619,
+    "Pearson_std": 0.05052301538118108
+  },
+  "new_minus_matched_baseline": {
+    "RMSE": -0.17579380520200272,
+    "Pearson": 0.09576184101787015
+  },
+  "new_minus_full_baseline_noncomparable": {
+    "RMSE": -0.11205954354765002,
+    "Pearson": 0.0675677388788255
+  },
+  "both_metrics_improved_folds": 5,
+  "corrected_95CI_delta_RMSE": [
+    -0.25260765550937125,
+    -0.09897995489463417
+  ],
+  "corrected_95CI_delta_Pearson": [
+    0.02104085891131241,
+    0.1704828231244279
+  ],
+  "subset_improvement_meaningful": true,
+  "limitations": "339 completed recordings are an incomplete subset, not a new full-data five-fold benchmark. Corrected-CV intervals are approximate.",
+  "decision": "KEEP BASELINE",
+  "decision_reason": "Promising subset evidence only; no completed test speech features and further extraction is prohibited.",
+  "recommended_submission": "C:\\Users\\Kishl\\Downloads\\SHL\\submission.csv",
+  "new_submission_created": false,
+  "audio_processed": 0,
+  "new_models_downloaded": 0,
+  "additional_regressors_or_ensembles_tested": false,
+  "protected_baseline_files_unchanged": 1073
+}

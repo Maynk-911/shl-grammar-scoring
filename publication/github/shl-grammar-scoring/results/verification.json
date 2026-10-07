@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "notebook_code_cells_executed": 15,
+  "submission_rows": 216,
+  "feature_rows": 985,
+  "features": 177,
+  "checks": [
+    "exact CSV schema and test order",
+    "finite bounded predictions",
+    "split-qualified feature rows",
+    "no exact audio duplicates",
+    "holdout excluded from CV",
+    "holdout metrics independently recomputed",
+    "notebook schema, execution and embedded figures",
+    "notebook/source extractor consistency",
+    "audio and submission edge cases"
+  ]
+}

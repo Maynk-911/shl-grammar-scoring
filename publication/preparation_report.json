@@ -1,0 +1,15 @@
+{
+  "status": "ready for user upload",
+  "retrained": false,
+  "protected_artifacts_unchanged": true,
+  "github_folder": "publication/github/shl-grammar-scoring",
+  "github_zip": "SHL_GitHub_Upload.zip",
+  "github_files": 39,
+  "github_zip_bytes": 2112873,
+  "kaggle_csv": "publication/kaggle/submission.csv",
+  "submission_rows": 216,
+  "submission_sha256": "26e5cae71f84c83f1ea606a5460ec28d6ef51e93702499f935b96cac353acb97",
+  "prediction_min": 2.560277777777777,
+  "prediction_max": 4.632472222222222,
+  "publications_performed": false
+}

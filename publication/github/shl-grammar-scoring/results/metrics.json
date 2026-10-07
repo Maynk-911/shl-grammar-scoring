@@ -1,0 +1,28 @@
+{
+  "selected_model": "ExtraTrees",
+  "feature_count": 177,
+  "selection": "Highest development CV Pearson, RMSE tie-break; holdout excluded",
+  "training": {
+    "RMSE": 0.14422756392068964,
+    "Pearson": 0.9952594682206658
+  },
+  "holdout": {
+    "RMSE": 0.6891117612699722,
+    "Pearson": 0.8384886724804615
+  },
+  "baseline_holdout": {
+    "RMSE": 1.2488229034355511,
+    "Pearson": null
+  },
+  "development_fit": {
+    "RMSE": 0.15004184400802106,
+    "Pearson": 0.9948196439124455
+  },
+  "development_rows": 615,
+  "holdout_rows": 154,
+  "test_predictions": 216,
+  "score_bounds": [
+    0.0,
+    5.0
+  ]
+}

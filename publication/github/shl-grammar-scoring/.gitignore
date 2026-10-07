@@ -1,0 +1,12 @@
+Dataset_Final/
+.venv/
+.jupyter/
+__pycache__/
+.ipynb_checkpoints/
+features/audio/
+features/transcripts/
+models/
+*.wav
+*.zip
+.env
+kaggle.json

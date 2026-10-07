@@ -1,0 +1,58 @@
+{
+  "status": "passed",
+  "retraining_performed": false,
+  "methodology_changed": false,
+  "protected_artifacts_unchanged": true,
+  "checks": [
+    "train/test audio filename inventories",
+    "216-row CSV schema, bounds and order",
+    "saved final model reproduces every submission prediction",
+    "saved models reproduce reported training and holdout metrics",
+    "saved split and holdout labels agree with original training CSV",
+    "executed notebook contains the recorded metric values and matching source",
+    "README, experiment selection and model parameters agree",
+    "four PNG figures present; previous project archive matches source files"
+  ],
+  "metrics": {
+    "selected_model": "ExtraTrees",
+    "feature_count": 177,
+    "selection": "Highest development CV Pearson, RMSE tie-break; holdout excluded",
+    "training": {
+      "RMSE": 0.14422756392068964,
+      "Pearson": 0.9952594682206658
+    },
+    "holdout": {
+      "RMSE": 0.6891117612699722,
+      "Pearson": 0.8384886724804615
+    },
+    "baseline_holdout": {
+      "RMSE": 1.2488229034355511,
+      "Pearson": null
+    },
+    "development_fit": {
+      "RMSE": 0.15004184400802106,
+      "Pearson": 0.9948196439124455
+    },
+    "development_rows": 615,
+    "holdout_rows": 154,
+    "test_predictions": 216,
+    "score_bounds": [
+      0.0,
+      5.0
+    ]
+  },
+  "submission_sha256": "26e5cae71f84c83f1ea606a5460ec28d6ef51e93702499f935b96cac353acb97",
+  "protected_sha256": {
+    "SHL_Grammar_Scoring.ipynb": "4039a1323e5ae9447a27971c9aa3dc6de147c3909358212facf7e47da052b3c7",
+    "submission.csv": "26e5cae71f84c83f1ea606a5460ec28d6ef51e93702499f935b96cac353acb97",
+    "models/grammar_model.joblib": "15a106ed0a492cf42bcc85ceb281355a69d730ea6d38c9d410aacd2bd161374c",
+    "models/holdout_model.joblib": "7a556eb832e24e58bc3b9adadafaff2b933881d17d3e57c8014fa56958b40001",
+    "features/audio_features.csv": "df366c84cb892fe9be768023d63310db28a1777afa721eebb0d5895c94024cd5",
+    "results/metrics.json": "900577c090602246a21b1922fb9c01e538c4074fdb95eaddede096d5c10ed7a4",
+    "results/experiment_results.csv": "f36ad0dbf5d21d94d87048728588d8288cc7ea9cec34b6ea01a3d1916b5ae307",
+    "src/__init__.py": "533b389c50d1ba22a3e49b6f7a58e5d5304ec2fe58387a39cd12ed620dae6f6b",
+    "src/data.py": "2117d9d1e207ceb8dac5732407e6bea64808ef9f1de23be70379d7572b92ccd7",
+    "src/feature_extraction.py": "5126722fdfd0628a768ec20e12b5aaddcdad5b7adce0f62e8ba043ea1fb07164",
+    "src/model.py": "d5f37d33e8ba8111536a6fa44032d0205e2a27c9e0a103690d18e77c3c536f27"
+  }
+}
